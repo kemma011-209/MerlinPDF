@@ -1,4 +1,11 @@
 {
+  "[project]/components/Chart.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/Chart.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/components_Chart_tsx_2320ab0e._.js",
+      "static/chunks/components_Chart_tsx_836eeff8._.js"
+    ]
+  },
   "[project]/components/PdfViewer.tsx [app-client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/components/PdfViewer.tsx [app-client] (ecmascript, next/dynamic entry)",
     "files": [
@@ -7,7 +14,7 @@
       "static/chunks/node_modules_next_dist_compiled_bf0c3dc0._.js",
       "static/chunks/components_PdfViewer_tsx_eb72abe3._.js",
       "static/chunks/node_modules_@react-pdf-viewer_core_lib_styles_index_c13b7429.css",
-      "static/chunks/components_PdfViewer_tsx_10006326._.js"
+      "static/chunks/components_PdfViewer_tsx_836eeff8._.js"
     ]
   }
 }

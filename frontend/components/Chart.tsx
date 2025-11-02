@@ -3,7 +3,7 @@
 import { Layout } from "plotly.js";
 import Plot from "react-plotly.js";
 
-function ChartComponent({ payload }: { payload: any }) {
+function ChartComponent({ payload, height = 240 }: { payload: any; height?: number }) {
     const { objects, values, types } = payload;
     
     function getTypedData() {
@@ -34,28 +34,21 @@ function ChartComponent({ payload }: { payload: any }) {
     const layout: Partial<Layout> = {
                     xaxis: { title: { text: "Objects" } },
                     yaxis: { title: { text: "Values" } },
-                    width: 600,
-                    height: 500,
-                    barmode: "group"// grouped bars
+                    margin: { l: 40, r: 10, t: 10, b: 40 },
+                    barmode: "group",
+                    height
                 };
 
     return (
-        <div className="plot" style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '100vh',
-        }}>
+        <div className="plot" style={{ display: 'block', width: '100%', height }}>
             <Plot
                 data={plotData.length ? plotData : [
-                    {
-                        x: [],
-                        y: [],
-                        type: "bar",
-                        name: ""
-                    }
+                    { x: [], y: [], type: "bar", name: "" }
                 ]}
-                layout={layout} />
+                layout={layout}
+                style={{ width: '100%', height: '100%' }}
+                config={{ responsive: true }}
+            />
         </div>
     );
 };

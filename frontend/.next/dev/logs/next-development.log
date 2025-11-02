@@ -1,3 +1,102 @@
+<<<<<<< HEAD
 [00:00:02.595] Server  LOG      ✓ Ready in 1848ms
 [00:00:12.258] Server  LOG      ○ Compiling / ...
 [00:00:23.444] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+=======
+[00:00:02.280] Server  LOG      ✓ Ready in 1716ms
+[00:00:11.549] Server  LOG      ○ Compiling / ...
+[00:00:18.950] Server  ERROR    ⨯ ./components/Chart.tsx:4:1
+Module not found: Can't resolve 'react-plotly.js'
+  2 |
+  3 | import { Layout } from "plotly.js";
+> 4 | import Plot from "react-plotly.js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | function ChartComponent({ payload, height = 240 }: { payload: any; height?: number }) {
+  7 |     const { objects, values, types } = payload;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./components/Chart.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:21.967] Server  LOG      ○ Compiling /_error ...
+[00:00:23.956] Browser ERROR   uncaughtError: Error: ./components/Chart.tsx:4:1
+Module not found: Can't resolve 'react-plotly.js'
+  2 |
+  3 | import { Layout } from "plotly.js";
+> 4 | import Plot from "react-plotly.js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | function ChartComponent({ payload, height = 240 }: { payload: any; height?: number }) {
+  7 |     const { objects, values, types } = payload;
+
+
+
+Import trace:
+  Client Component Browser:
+    ./components/Chart.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:24.269] Browser ERROR   ./components/Chart.tsx:4:1
+Module not found: Can't resolve 'react-plotly.js'
+  2 |
+  3 | import { Layout } from "plotly.js";
+> 4 | import Plot from "react-plotly.js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | function ChartComponent({ payload, height = 240 }: { payload: any; height?: number }) {
+  7 |     const { objects, values, types } = payload;
+
+Import trace:
+  Client Component Browser:
+    ./components/Chart.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:24.269] Browser ERROR   ./components/Chart.tsx:4:1
+Module not found: Can't resolve 'react-plotly.js'
+  2 |
+  3 | import { Layout } from "plotly.js";
+> 4 | import Plot from "react-plotly.js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | function ChartComponent({ payload, height = 240 }: { payload: any; height?: number }) {
+  7 |     const { objects, values, types } = payload;
+
+Import trace:
+  Client Component Browser:
+    ./components/Chart.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:24.445] Browser ERROR   ./components/Chart.tsx:4:1
+Module not found: Can't resolve 'react-plotly.js'
+  2 |
+  3 | import { Layout } from "plotly.js";
+> 4 | import Plot from "react-plotly.js";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | function ChartComponent({ payload, height = 240 }: { payload: any; height?: number }) {
+  7 |     const { objects, values, types } = payload;
+
+Import trace:
+  Client Component Browser:
+    ./components/Chart.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+>>>>>>> master
