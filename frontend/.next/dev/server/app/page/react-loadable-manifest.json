@@ -1,13 +1,22 @@
 {
+  "[project]/components/Chart.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/Chart.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/8c4f4_plotly_js_dist_plotly_6040dc14.js",
+      "static/chunks/node_modules__pnpm_b07057a5._.js",
+      "static/chunks/components_Chart_tsx_2320ab0e._.js",
+      "static/chunks/components_Chart_tsx_50d19e86._.js"
+    ]
+  },
   "[project]/components/PdfViewer.tsx [app-client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/components/PdfViewer.tsx [app-client] (ecmascript, next/dynamic entry)",
     "files": [
-      "static/chunks/node_modules_pdfjs-dist_build_pdf_3db3701a.js",
-      "static/chunks/node_modules_@react-pdf-viewer_core_lib_76c7803f._.js",
-      "static/chunks/node_modules_next_dist_compiled_bf0c3dc0._.js",
+      "static/chunks/d86df_pdfjs-dist_build_pdf_e98bb2c6.js",
+      "static/chunks/019ca_@react-pdf-viewer_core_lib_70feef9a._.js",
+      "static/chunks/59315_next_dist_compiled_9ab9edc3._.js",
       "static/chunks/components_PdfViewer_tsx_eb72abe3._.js",
-      "static/chunks/node_modules_@react-pdf-viewer_core_lib_styles_index_c13b7429.css",
-      "static/chunks/components_PdfViewer_tsx_10006326._.js"
+      "static/chunks/019ca_@react-pdf-viewer_core_lib_styles_index_f958da13.css",
+      "static/chunks/components_PdfViewer_tsx_50d19e86._.js"
     ]
   }
 }
