@@ -3,4 +3,3 @@ fastapi
 python-dotenv
 dateparser
 openai
-pydantic
