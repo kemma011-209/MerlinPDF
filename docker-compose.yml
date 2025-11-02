@@ -1,14 +1,16 @@
 services:
   backend:
+    container_name: merlinpdf-backend
     build: ./backend
     ports:
-      - "8001:8000"
+      - "8001:8001"
     volumes:
       - ./backend:/app
     env_file:
       - ./backend/.env
 
   frontend:
+    container_name: merlinpdf-frontend
     build: ./frontend
     ports:
       - "3000:3000"
