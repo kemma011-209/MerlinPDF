@@ -1,14 +1,14 @@
 (globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
     script: typeof document === "object" ? document.currentScript : undefined,
     chunks: [
-  "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d62d378a._.js",
-  "static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js",
-  "static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_9212ccad._.js",
-  "static/chunks/node_modules_next_dist_compiled_next-devtools_index_1dd7fb59.js",
-  "static/chunks/node_modules_next_dist_compiled_a0e4c7b4._.js",
-  "static/chunks/node_modules_next_dist_client_a6ce9b62._.js",
-  "static/chunks/node_modules_next_dist_4b2403f5._.js",
-  "static/chunks/node_modules_@swc_helpers_cjs_d80fb378._.js"
+  "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_675e24f4._.js",
+  "static/chunks/821c6_next_dist_compiled_react-dom_902aefa0._.js",
+  "static/chunks/821c6_next_dist_compiled_react-server-dom-turbopack_1b6a09e3._.js",
+  "static/chunks/821c6_next_dist_compiled_next-devtools_index_7c57b2c8.js",
+  "static/chunks/821c6_next_dist_compiled_88cb8357._.js",
+  "static/chunks/821c6_next_dist_client_a7ee76a8._.js",
+  "static/chunks/821c6_next_dist_04145040._.js",
+  "static/chunks/69652_@swc_helpers_cjs_679851cc._.js"
 ],
     source: "entry"
 });
