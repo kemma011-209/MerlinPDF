@@ -159,12 +159,12 @@
     :root, :host {
       --color-red-500: lab(55.4814% 75.0732 48.8528);
       --color-neutral-50: lab(98.26% 0 0);
-      --color-neutral-100: lab(96.52% -.0000596046 0);
-      --color-neutral-200: lab(90.952% -.0000596046 0);
+      --color-neutral-100: lab(96.52% -.0000298023 .0000119209);
+      --color-neutral-200: lab(90.952% 0 -.0000119209);
       --color-neutral-400: lab(66.128% -.0000298023 .0000119209);
       --color-neutral-500: lab(48.496% 0 0);
       --color-neutral-700: lab(27.036% 0 0);
-      --color-neutral-800: lab(15.204% 0 0);
+      --color-neutral-800: lab(15.204% 0 -.00000596046);
       --color-neutral-900: lab(7.78201% -.0000149012 0);
     }
   }
