@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Request
-from utils.cleaning import normalize_units, normalize_dates
+from ..utils.cleaning import normalize_units, normalize_dates
 import openai
 import os
 
@@ -12,6 +12,11 @@ router = APIRouter(prefix="/digitalocean", tags=["digitalocean"])
 async def query_agent(request: Request):
     payload = await request.json()
     payload_text = payload.get("text", "")
+
+    if not payload_text:
+        return {"error": "No text provided in the payload."}
+    if len(payload_text) > 2000:
+        return {"error": "Text exceeds maximum length of 2000 characters."}
 
     # Normalize the text
     normalized_text = normalize_units(payload_text)

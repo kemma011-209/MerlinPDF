@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from  routes.llms import router as llm_router
+from .routes.llms import router as llm_router
 app = FastAPI(title="AI Todo API", 
               version="1.0.0")
 
