@@ -2,17 +2,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Build the application using `docker-compose up --build` from the root directory of the project
+This should build fine.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
